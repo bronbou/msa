@@ -1,4 +1,4 @@
-<script>
+
 document.addEventListener("DOMContentLoaded", function(){
 
   const form = document.getElementById("peliRepForm");
@@ -90,4 +90,3 @@ document.addEventListener("DOMContentLoaded", function(){
   });
 
 });
-</script>
