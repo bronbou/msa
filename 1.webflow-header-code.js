@@ -38,9 +38,8 @@ const REP_DETAILS = {
   }
 
 };
-</script>
 
-<script>
+
 const postcodeMap = {
   "AB10": {
       "region": "Scotland",
