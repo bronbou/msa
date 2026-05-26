@@ -1,4 +1,3 @@
-<script>
 (function(){
   const availableDistricts = Object.keys(postcodeMap).sort(function(a, b){
     return b.length - a.length;
@@ -78,4 +77,3 @@
     .getElementById("peliRepForm")
     .addEventListener("submit", lookupRep);
 })();
-</script>
