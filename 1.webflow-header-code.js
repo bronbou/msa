@@ -1,4 +1,3 @@
-<script>
 const REP_DETAILS = {
 
   "Carly Brown": {
@@ -11996,4 +11995,3 @@ const postcodeMap = {
       "rep": "Craig Benton"
   }
 };
-</script>
