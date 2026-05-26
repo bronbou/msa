@@ -77,16 +77,16 @@ document.addEventListener("DOMContentLoaded", function(){
       ? '<img src="' + escapeHtml(photo) + '" alt="">'
       : "";
 
-    result.innerHTML =
-      '<div class="peli-rep-card">' +
-        photoHtml +
-        '<div>' +
-          '<h3>' + escapeHtml(match.rep) + '</h3>' +
-          '<p><strong>Postcode district:</strong> ' + escapeHtml(district) + '</p>' +
-          '<p><strong>Region:</strong> ' + escapeHtml(match.region) + '</p>' +
-          phoneHtml +
-        '</div>' +
-      '</div>';
+   result.innerHTML =
+  '<div class="peli-rep-card">' +
+    photoHtml +
+    '<div>' +
+      '<h3>' + escapeHtml(match.rep) + '</h3>' +
+      '<p><strong>Postcode district:</strong> ' + escapeHtml(district) + '</p>' +
+      '<p><strong>Region:</strong> ' + escapeHtml(match.region) + '</p>' +
+      '<p style="margin-top:10px;"><strong>Phone:</strong> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>' +
+    '</div>' +
+  '</div>';
   });
 
 });
