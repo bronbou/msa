@@ -10,7 +10,7 @@ const REP_DETAILS = {
     },
     "Ed Watson": {
       "phone": "07922 416 540",
-      "photo": "https://cdn.prod.website-files.com/6718c14b6cb6dc26f0cc58ba/6a16d5e7224f960049834b14_msa-web.png"
+      "photo": "https://daks2k3a4ib2z.cloudfront.net/6718c14b6cb6dc26f0cc58ba/6a16d5e7224f960049834b14_msa-web-p-130x130q80.png"
     },
     "Elizabeth Mellor": {
       "phone": "07523 671 763",
