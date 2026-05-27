@@ -22,7 +22,7 @@ const REP_DETAILS = {
     },
     "Indy Devgun": {
       "phone": "07919 173 591",
-      "photo": "https://cdn.prod.website-files.com/6718c14b6cb6dc26f0cc58ba/67b34321355750bdf386fa6e_64f84bf33934ea24a29b1929__0001_Indy.jpeg.jpeg"
+      "photo": "https://cdn.prod.website-files.com/6718c14b6cb6dc26f0cc58ba/6a17079f0e82cd46a74a46b9__0001_Indy.jpeg.jpg"
     },
     "Lucy Connor": {
       "phone": "07738 718 966",
