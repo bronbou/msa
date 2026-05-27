@@ -68,7 +68,6 @@ document.addEventListener("DOMContentLoaded", function(){
     const rep = REP_DETAILS[match.rep] || {};
     const phone = rep.phone || "";
     const photo = rep.photo || "";
-
     const phoneHtml = phone
       ? '<p><strong>Phone:</strong> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>'
       : "";
@@ -84,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function(){
       '<h3>' + escapeHtml(match.rep) + '</h3>' +
       '<p><strong>Postcode district:</strong> ' + escapeHtml(district) + '</p>' +
       '<p><strong>Region:</strong> ' + escapeHtml(match.region) + '</p>' +
-      '<p><strong>Phone:</strong> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>' +
+      phoneHtml +
     '</div>' +
   '</div>';
   });
