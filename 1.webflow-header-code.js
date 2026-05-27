@@ -1,4 +1,4 @@
-window.REP_DETAILS = {
+const REP_DETAILS = {
 
   "Carly Brown": {
       "phone": "07540 327 214",
@@ -10,7 +10,7 @@ window.REP_DETAILS = {
     },
     "Ed Watson": {
       "phone": "07922 416 540",
-      "photo": "https://cdn.prod.website-files.com/6718c14b6cb6dc26f0cc58ba/6a16dfc6eee56f95d9c14f89_large-svg-icon.svg"
+      "photo": "https://cdn.prod.website-files.com/6718c14b6cb6dc26f0cc58ba/6a16d5e7224f960049834b14_msa-web.png"
     },
     "Elizabeth Mellor": {
       "phone": "07523 671 763",
@@ -40,7 +40,7 @@ window.REP_DETAILS = {
 };
 
 
-window.postcodeMap = {
+const postcodeMap = {
   "AB10": {
       "region": "Scotland",
       "rep": "Craig Benton"
