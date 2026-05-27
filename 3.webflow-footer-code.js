@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const photo = rep.photo || "";
 
     const phoneHtml = phone
-      ? '<p><span class="card-headers">Phone:</span> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>'
+      ? '<p><strong>Phone:</strong> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>'
       : "";
 
     const photoHtml = photo
@@ -82,9 +82,9 @@ document.addEventListener("DOMContentLoaded", function(){
     photoHtml +
     '<div>' +
       '<h3>' + escapeHtml(match.rep) + '</h3>' +
-      '<p><span class="card-headers">Postcode district:</span> ' + escapeHtml(district) + '</p>' +
-      '<p><span class="card-headers">Region:</span> ' + escapeHtml(match.region) + '</p>' +
-      '<p><span class="card-headers">Phone:</span> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>' +
+      '<p><strong>Postcode district:</strong> ' + escapeHtml(district) + '</p>' +
+      '<p><strong>Region:</strong> ' + escapeHtml(match.region) + '</p>' +
+      '<p><strong>Phone:</strong> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>' +
     '</div>' +
   '</div>';
   });
