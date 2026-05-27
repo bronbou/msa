@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const photo = rep.photo || "";
 
     const phoneHtml = phone
-      ? '<p><strong>Phone:</strong> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>'
+      ? '<p><span class="card-headers">Phone:</span> <a href="tel:' + escapeHtml(phone.replace(/\s+/g, "")) + '">' + escapeHtml(phone) + '</a></p>'
       : "";
 
     const photoHtml = photo
