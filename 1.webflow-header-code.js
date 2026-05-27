@@ -1,4 +1,4 @@
-const REP_DETAILS = {
+window.REP_DETAILS = {
 
   "Carly Brown": {
       "phone": "07540 327 214",
@@ -40,7 +40,7 @@ const REP_DETAILS = {
 };
 
 
-const postcodeMap = {
+window.postcodeMap = {
   "AB10": {
       "region": "Scotland",
       "rep": "Craig Benton"
